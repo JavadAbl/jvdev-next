@@ -42,7 +42,7 @@ export default function AnimatedParagraph({
       {words.map((word, index) => (
         <span
           key={index}
-          className={`transition-colors duration-300 ease-in-out ${
+          className={`transition-colors duration-300 ease-in-out text-justify hyphens-auto ${
             index === activeIndex
               ? highlightClassName // Apply the custom highlight class
               : "font-normal text-inherit" // The normal state

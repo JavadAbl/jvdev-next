@@ -78,7 +78,7 @@ export default function PortfolioSection() {
               {project.title}
             </h3>
 
-            <p className="text-lg font-basis33 text-gray-400 mb-5 grow ">
+            <p className="text-sm font-mono text-justify hyphens-auto text-gray-400 mb-5 grow ">
               {project.description}
             </p>
 

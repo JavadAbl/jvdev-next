@@ -40,6 +40,7 @@ export default function AboutSection() {
           Modular, and Microservices architectures, designing and implementing
           REST APIs and Event-Driven systems based on Redis and RabbitMQ."
           className="mb-4 "
+          highlightClassName="text-cyan-400 font-bold [text-shadow:_1px_1px_2px_red,_0_0_1em_blue,_0_0_0.2em_blue]"
           duration={2000}
         />
 
@@ -50,22 +51,23 @@ export default function AboutSection() {
           ideas into reality through code. specially running js code on the
           server!"
           className="mb-4 "
+          highlightClassName="text-cyan-400 font-bold [text-shadow:_1px_1px_2px_red,_0_0_1em_blue,_0_0_0.2em_blue]"
           duration={2000}
         />
 
         <div className="mt-6 flex gap-8 flex-wrap">
           <div>
             <strong className="text-neon">Email:</strong>{" "}
-            <span className="text-[#e0e0e0]">work.javadabl@gmail.com</span>
+            <span className="text-[#e0e0e0]">info@jvdev.ir</span>
           </div>
           <div>
             <strong className="text-neon">Location:</strong>{" "}
             <span className="text-[#e0e0e0]">Iran - Tehran</span>
           </div>
-          <div>
+          {/* <div>
             <strong className="text-neon">Age:</strong>{" "}
             <span className="text-[#e0e0e0]">32</span>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

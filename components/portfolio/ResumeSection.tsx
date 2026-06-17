@@ -53,7 +53,7 @@ export default function ResumeSection() {
                 {item.role}
               </h4>
 
-              <ul className="list-disc list-inside space-y-1 font-basis33 text-xl">
+              <ul className="list-disc list-inside space-y-1 font-sans text-sm">
                 {item.details.map((detail, dIndex) => (
                   <li key={dIndex} className="text-[#e0e0e0]">
                     {detail}

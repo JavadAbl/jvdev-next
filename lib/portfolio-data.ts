@@ -164,7 +164,7 @@ export const experience = [
     company: "Ugym Co.",
     role: "Fullstack JS Developer",
     details: [
-      "Development and maintenance of client side of gym management system",
+      "Development and maintenance of client side of gym management system with React.js",
       "Development of a microservice with Nestjs for gym management system",
       "Development of an event-oriented service with Nodejs to transfer gym software data events to financial and CRM systems",
       "Development of an UDP service with Nodejs to interact with gym lockers control boards",
@@ -207,7 +207,7 @@ export const portfolioProjects = [
     title: "Admin Dashboard",
     description: "A comprehensive admin panel for a sales system.",
     tags: ["React", "Tailwind", "Daisyui", "ReactQuery", "Redux Toolkit"],
-    github: "https://github.com/JavadAbl/node-online-car-repair",
+    github: "https://github.com/JavadAbl/admin-dashboard",
     deploy: "https://jvdev.ir/admin-dashboard",
   },
   {
@@ -240,7 +240,7 @@ export const contactInfo = [
   {
     icon: "fa-envelope",
     label: "Email",
-    value: "work.javadabl@gmail.com",
+    value: "info@jvdev.ir",
   },
   {
     icon: "fa-phone",
